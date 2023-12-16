@@ -14,7 +14,7 @@ app.use(cors({
       'http://localhost:8080',
       'http://localhost:1234',
       'https://movies.com',
-      'https://midu.dev'
+      'https://rest-api-deploy-dev-hmkg.4.us-1.fl0.io'
     ]
     if (ACCEPTED_ORIGINS.includes(origin)) {
       return callback(null, true)
